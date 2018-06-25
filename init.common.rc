@@ -537,6 +537,9 @@ on boot
     # Wifi firmware reload path
     chown wifi wifi /sys/module/wlan/parameters/fwpath
 
+    # Fastcharge
+    write /sys/kernel/fast_charge/force_fast_charge 1
+
 on property:wc_transport.start_hci=true
     start start_hci_filter
 
