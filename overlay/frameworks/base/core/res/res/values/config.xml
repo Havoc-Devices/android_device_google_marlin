@@ -380,7 +380,6 @@
          phone object irrespective of this config -->
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
 
-
     <!-- Use ERI text for network name on CDMA LTE -->
         <bool name="config_LTE_eri_for_network_name">false</bool>
 
@@ -456,7 +455,6 @@
          * The remote submix module "audio.r_submix.default" must be installed on the device.
          * The device must be provisioned with HDCP keys (for protected content). -->
     <bool name="config_enableWifiDisplay">true</bool>
-<<<<<<< HEAD
 
     <!-- Disable Project Fi app until a Fi SIM is inserted. -->
     <string-array name="config_disabledUntilUsedPreinstalledCarrierApps">
@@ -476,6 +474,5 @@
 
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>
-=======
->>>>>>> a12f63a... marlin: enable wireless display / miracast
+
 </resources>
